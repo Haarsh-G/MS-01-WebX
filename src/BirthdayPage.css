@@ -1,0 +1,141 @@
+.birthday-container {
+  text-align: center;
+  background: linear-gradient(135deg, #8e44ad, #9b59b6);
+  padding: 50px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Comic Sans MS", sans-serif;
+}
+
+.birthday-title {
+  font-size: 3.5rem;
+  color: #fff;
+  margin-bottom: 20px;
+  text-shadow: 2px 2px #6c3483;
+}
+
+.name-input {
+  font-size: 1.5rem;
+  padding: 10px;
+  width: 60%;
+  max-width: 400px;
+  margin-bottom: 20px;
+  border: 2px solid #6c3483;
+  border-radius: 5px;
+}
+
+.birthday-question {
+  font-size: 1.8rem;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.birthday-button {
+  padding: 15px 30px;
+  font-size: 1.5rem;
+  color: #fff;
+  background-color: #6c3483;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: transform 0.3s, background-color 0.3s;
+}
+
+.birthday-button:hover {
+  transform: scale(1.1);
+  background-color: #512e5f;
+}
+
+.birthday-container {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  background-image: url("/assets/background.jpg"); /* Ensure the path matches your file location */
+  background-size: cover; /* Ensures the image covers the entire container */
+  background-repeat: no-repeat; /* Prevents tiling */
+  background-position: center; /* Centers the image */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.glass-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(128, 0, 128, 0.4); /* Purple tint with transparency */
+  backdrop-filter: blur(8px); /* Glass effect */
+  z-index: 1;
+}
+
+.birthday-title,
+.birthday-question,
+.birthday-button {
+  position: relative;
+  z-index: 2;
+}
+
+.birthday-container {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.glass-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(128, 0, 128, 0.4);
+  backdrop-filter: blur(8px);
+  z-index: 1;
+}
+
+.birthday-title {
+  font-family: "Pacifico", cursive;
+  font-size: 3rem;
+  color: white;
+  text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+}
+
+.birthday-question {
+  font-size: 1.5rem;
+  color: white;
+}
+
+.birthday-button {
+  background-color: #8a2be2;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 30px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.birthday-button:hover {
+  background-color: #6a0dad;
+  transform: scale(1.1);
+}
+
+.music-button {
+  background-color: #8a2be2;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  font-size: 18px;
+  margin-top: 20px;
+}
