@@ -10,8 +10,8 @@ function BirthdayPage() {
 
   const { width, height } = useWindowSize();
 
-  const preUploadedImage = "/background.jpg"; // Path to the background image
-  const preUploadedMusic = "/music1.mp3"; // Path to the music file
+  const preUploadedImage = "/images/background.jpg"; // Path to the background image
+  const preUploadedMusic = "/images/music1.mp3"; // Path to the music file
   const preDefinedName = "Tanvi"; // Predefined name
 
   const currentTime = new Date().getHours();
